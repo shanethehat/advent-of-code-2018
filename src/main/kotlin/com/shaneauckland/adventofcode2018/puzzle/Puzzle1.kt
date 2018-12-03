@@ -11,7 +11,7 @@ class Puzzle1(
     private val output: PrintStream
 ) : Puzzle {
 
-    constructor() : this(Paths.get(Puzzle1::class.java.classLoader.getResource("Puzzle1/input.txt").toURI()).toFile(), System.out)
+    constructor() : this(Paths.get(Puzzle1::class.java.classLoader.getResource("puzzle1.txt").toURI()).toFile(), System.out)
 
     override fun run() {
 
